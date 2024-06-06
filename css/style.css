@@ -1668,3 +1668,71 @@ img:hover {
   -webkit-filter: grayscale(0);
   -webkit-transform: scale(1.01);
 }
+
+/* mobile */
+
+@media (max-width: 1024px) {
+  h2 {
+    font-size: 3vw;
+  }
+
+  h4 {
+    font-size: 3.5vw;
+  }
+
+  h5 {
+    font-size: 1.8vw;
+    font-weight: 800;
+  }
+
+  h6 {
+    font-size: 1.5vw;
+  }
+
+  p {
+    font-size: 1.3vw;
+  }
+
+  .img-about {
+    height: 30vh;
+    width: auto;
+    margin-bottom: 2vh;
+  }
+
+  .mobile-center {
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 5vw;
+  }
+
+  h4 {
+    font-size: 3.5vw;
+  }
+
+  h5 {
+    font-size: 2.5vw;
+    font-weight: 800;
+  }
+
+  h6 {
+    font-size: 2vw;
+  }
+
+  p {
+    font-size: 2.1vw;
+  }
+
+  .img-about {
+    height: 30vh;
+    width: auto;
+    margin-bottom: 2vh;
+  }
+
+  .mobile-center {
+    text-align: center;
+  }
+}
